@@ -9,7 +9,7 @@ while True:
         for i in range(length):
             random_int = random.randint(33, 126)
             password += chr(random_int)
-        print(password, len(password))
+        print("Password: ", password, len(password))
         break
     else:
         print("Invalid length (2-49)")
