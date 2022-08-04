@@ -14,3 +14,4 @@ while True:
         print("Invalid length (2-49)")
         continue
         
+k = input("Press any key to exit")
